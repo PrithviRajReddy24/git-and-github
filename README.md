@@ -4,10 +4,7 @@ Welcomt to my git and github repository
      cd mygitrepos/
      sudo apt-get install git
      git --version
-     github auth login
-     git-hub auth login
-     gh auth login
      sudo apt-get install gh
      gh auth login
-   
-
+     git config --global user.email "email id"
+     git config --global user.name "username"
