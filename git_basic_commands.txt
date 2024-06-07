@@ -117,3 +117,19 @@
   117  git push origin
   118  git status
   119  history
+  120  git branch
+  121  git checkout -b feature_Prithvi
+  122  git branch
+  123  git status
+  124  git add .
+  125  git commit -m "Commit from feature branch"
+  126  git push origin feature_Prithvi 
+  127  git checkout -b feature2
+  128  git branch
+  129  git status
+  130  git add .
+  131  git commit -m "making changes in .py file and commiting to feature2 branch"
+  132  git push origin feature2
+  133  git status
+  134  git checkout main
+  135  history
