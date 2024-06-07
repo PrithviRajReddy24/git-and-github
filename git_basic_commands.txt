@@ -1,0 +1,119 @@
+ 1  lsb_release -a
+    2  sudo apt-get update
+    3  echo HELLO
+    4  notepad hello.txt
+    5  touch hello.txt
+    6  ls 
+    7  vi hello.txt 
+    8  cat hello.txt 
+    9  uname -a
+   10  lsb_release -a -o wide
+   11  lsb_release -a o wide
+   12  lsb_release -a
+   13  sudo apt-get update
+   14  ls
+   15  cat hello.txt 
+   16  vi hello.txt 
+   17  cat hello.txt 
+   18  ls ll
+   19  ll
+   20  ls -latr
+   21  man ls
+   22  cat hello.txt 
+   23  pwd
+   24  cd Desktop/
+   25  pwd
+   26  cd ..
+   27  sudo su -
+   28  cd Desktop/
+   29  cd ..
+   30  cd -
+   31  cd ..
+   32  whoami
+   33  sudo su -
+   34  echo Hell0 >> rootdir.txt
+   35  echo Hell0 > rootdir.txt
+   36  ls
+   37  echo test >> rootdir.txt
+   38  cat rootdir.txt 
+   39  cat test >> rootdit.txt
+   40  sudo
+   41  sudo -h
+   42  man sudo
+   43  man sudo > sudomanual.txt
+   44  cat sudomanual.txt 
+   45  vi sudomanual.txt 
+   46  sudo apt-get update
+   47  echo Hello >> test.txt
+   48  cat test.txt 
+   49  echo Hello_2ndline >> test.txt 
+   50  cat test.txt 
+   51  echo Hello_3rdLine > test.txt 
+   52  cat test.txt 
+   53  la
+   54  ll
+   55  rm test.txt 
+   56  ll
+   57  mkdir myhellodir
+   58  ll
+   59  ls
+   60  mv hello.txt myhellodir/
+   61  ls
+   62  ll
+   63  cd myhellodir/
+   64  ls
+   65  cd ..
+   66  cat myhellodir/hello.txt 
+   67  cd myhellodir/
+   68  ll
+   69  ls -lart
+   70  chmod u+x r+x 0+w hello.txt 
+   71  chmod 776 hello.txt 
+   72  ls
+   73  ll
+   74  chmod 400 hello.txt 
+   75  ll
+   76  chmod 664 hello.txt 
+   77  ll
+   78  sudo chmod 764 hello.txt 
+   79  ll
+   80  cat hello.txt 
+   81  sudo su -
+   82  cd ..
+   83  kpdg -l| my
+   84  dpkg -l | grep docker
+   85  dpkg -l | grep kube
+   86  dpkg -l | grep jenk
+   87  dpkg -l | grep git
+   88  grep my
+   89  grep -l my
+   90  sudo apt-get update
+   91  dpkg -l | git
+   92  dpkg -l | grep  git
+   93  dpkg -l| grep git
+   94  dpkg -l | grep git
+   95  echo Hello
+   96  mkdir mygitrepos
+   97  cd mygitrepos/
+   98  sudo apt-get install git
+   99  git --version
+  100  github auth login
+  101  git-hub auth login
+  102  gh auth login
+  103  sudo apt-get install gh
+  104  gh auth login
+  105  history
+  106  git status
+  107  import metrics
+  108  git add .
+  109  git status
+  110  git commit -m "comitting the changes made in the repo in my local "
+  111  git config --global user.email "velma.pruthvi24@gmail.com"
+  112  git config --global user.name "PrithviRajReddy24"
+  113  git commit -m "comitting the changes made in the repo in my local "
+  114  git status
+  115  git remote
+  116  git remote -v
+  117  git push origin
+  118  git status
+  119  history
