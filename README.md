@@ -8,3 +8,5 @@ Welcomt to my git and github repository
      gh auth login
      git config --global user.email "email id"
      git config --global user.name "username"
+     ssh -T git@github.com
+
